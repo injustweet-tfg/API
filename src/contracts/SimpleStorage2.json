@@ -1,0 +1,82 @@
+[
+{
+	"inputs": [],
+	"name": "getFiles",
+	"outputs": [
+	{
+	"components": [
+	{
+		"internalType": "string",
+		"name": "IPFShash",
+		"type": "string"
+	},
+	{
+		"internalType": "string[]",
+		"name": "tweetID",
+		"type": "string[]"
+	}
+	],
+	"internalType": "struct TFGStorage.TweetsFile[]",
+	"name": "",
+	"type": "tuple[]"
+	}
+	],
+	"stateMutability": "view",
+	"type": "function"
+},
+{
+	"inputs": [
+	{
+	"internalType": "string",
+	"name": "tweetID",
+	"type": "string"
+	}
+	],
+	"name": "getHashFromTweetID",
+	"outputs": [
+	{
+	"internalType": "string",
+	"name": "",
+	"type": "string"
+	}
+	],
+	"stateMutability": "view",
+	"type": "function"
+},
+{
+	"inputs": [
+	{
+	"internalType": "string",
+	"name": "hash",
+	"type": "string"
+	},
+	{
+	"internalType": "string[]",
+	"name": "tweetsID",
+	"type": "string[]"
+	}
+	],
+	"name": "setFile",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+},
+{
+	"inputs": [
+	{
+	"internalType": "string",
+	"name": "hash",
+	"type": "string"
+	},
+	{
+	"internalType": "string[]",
+	"name": "tweetsID",
+	"type": "string[]"
+	}
+	],
+	"name": "updateTweets",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}
+]
