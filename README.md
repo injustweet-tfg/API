@@ -13,6 +13,6 @@ Here can be found the files related to the API and the connections it has, like 
   - The "/set": stores the incomming JSON array in IPFS and sends the resultant IPFS hash with the tweet IDs to a smart contract.
   - The "/update": is a GET method, so when it is called this function updates a batch of tweets, the number of the tweets that can be updated is set by the Twitter API. To update all valid stored tweets, this function must be called more the once.
 
-- [contracts:](https://github.com/injustweet-tfg/API/tree/main/src/contracts)         Directory with the JSON ABI this API uses from a Soidity smart contract.
+- [contracts:](https://github.com/injustweet-tfg/API/tree/main/src/contracts)         Directory with the JSON ABIs this API uses from Soidity smart contracts.
 
 - [SimpleStorage2.json:](https://github.com/injustweet-tfg/API/tree/main/src/contracts/SimpleStorage2.json)         JSON File which contains the JSON ABI of the main Solidity smart contract used by this API. Here the information of the funtions and variables from the contract can be found, like name, type, inputs or outpust if it is a function, and other data as visibility (public, private, external or internal), or other states like view, pure or payable.
